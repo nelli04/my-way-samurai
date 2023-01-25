@@ -4,8 +4,34 @@ import './App.css';
 const App = () => {
   return (
     <div>
-    <div className='App'>
-      <div>one div</div>
+      <Header />
+      <Technologies />
+    </div>
+  );
+}
+
+const Header = () => {
+  return (
+    <div>
+      <div>
+        <a href='#s'>Home</a>
+      </div>
+      <div>
+        <a href='#s'>Message</a>
+      </div>
+      <div>
+        <a href='#s'>News</a>
+      </div>
+      <div>
+        <a href='#s'>Settings</a>
+      </div>
+    </div>
+  );
+}
+
+const Technologies = () => {
+  return (
+    <div>
       <ul>
         <li>css</li>
         <li>html</li>
@@ -13,8 +39,7 @@ const App = () => {
         <li>js</li>
       </ul>
     </div>
-    </div>
-  );
+  )
 }
 
-export default App;
+export default App; 
