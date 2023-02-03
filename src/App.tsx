@@ -1,15 +1,32 @@
 import React from 'react';
 import './App.css';
-import Header from './Header/Header';
-import Technologies from './Technologies/Technologies';
+import s from './header.module.css'
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <Technologies />
-    </div>
-  );
+    return (
+        <div className={s.app_wrapper}>
+            <header>
+                <img src=''/>
+            </header>
+            <nav>
+                <div>
+                    Profile
+                </div>
+                <div>
+                    Messages
+                </div>
+                <div>
+                    News
+                </div>
+                <div>
+                    Settings
+                </div>
+                <div>
+                    Main Content
+                </div>
+            </nav>
+        </div>
+    );
 }
 
 export default App; 
