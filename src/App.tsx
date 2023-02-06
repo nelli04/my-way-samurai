@@ -1,30 +1,30 @@
 import React from 'react';
 import './App.css';
-import s from './header.module.css'
 
-const App = () => {
+
+function App (){
     return (
-        <div className={s.app_wrapper}>
-            <header>
-                <img src=''/>
+        <div className='app_wrapper'>
+            <header className='header'>
+                <img src='https://fotorelax.ru/wp-content/uploads/2016/02/Beautiful-photos-and-pictures-on-different-topics-01.jpg'/>
             </header>
-            <nav>
+            <nav className='nav'>
                 <div>
-                    Profile
+                    <a>Profile</a>
                 </div>
                 <div>
-                    Messages
+                    <a>Messages</a>
                 </div>
                 <div>
-                    News
+                    <a>News</a>
                 </div>
                 <div>
-                    Settings
-                </div>
-                <div>
-                    Main Content
+                    <a>Settings</a>
                 </div>
             </nav>
+            <div className='content'>
+                <img src='https://fotorelax.ru/wp-content/uploads/2016/02/Beautiful-photos-and-pictures-on-different-topics-05.jpg'/>
+            </div>
         </div>
     );
 }
