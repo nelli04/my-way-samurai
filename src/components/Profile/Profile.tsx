@@ -1,8 +1,9 @@
 import React from 'react';
+import p from './profile.module.css'
 
 export function Profile () {
     return (
-        <div className='content'>
+        <div className={p.content}>
             <img
                 src='https://fotorelax.ru/wp-content/uploads/2016/02/Beautiful-photos-and-pictures-on-different-topics-05.jpg'/>
             <div>ava</div>
