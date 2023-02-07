@@ -1,21 +1,19 @@
 import React from 'react';
 import m from "./myposts.module.css";
+import {Post} from "./Post/Post";
+
+
 
 export function MyPosts () {
     return (
         <div className={m.myposts}>
-           <div>
-               MyPosts
-           </div>
-            <div>
-                NewPost
+            <textarea></textarea>
+            <button>Отправить</button>
+            <div className={m.post}>
+                <Post message = 'Hi'/>
+                <Post message = 'Hey Hey'/>
             </div>
-            <div className={m.item}>
-                post1
-            </div>
-            <div className={m.item}>
-                post2
-            </div>
+
         </div>
     )
 }
