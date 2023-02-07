@@ -5,10 +5,10 @@ export function Navbar () {
     return (
         <nav className={n.nav}>
             <div className={n.item}>
-                <a href='src/components#index.html'>Profile</a>
+                <a href='/profile'>Profile</a>
             </div>
             <div className={n.item}>
-                <a>Messages</a>
+                <a href='messages'>Messages</a>
             </div>
             <div className={n.item}>
                 <a>News</a>
